@@ -2,13 +2,13 @@
 
 Some examples of using Azure Data Factory from Python.
 
-####Process
+###Process
 - Rename config.py.template and fill in your values
 - Run create_datafactory.py
 
 Change to the pipeline you want to run in "pipelines" and follow the README.
 
-####Installation
+###Installation
 
 Install Azure Management support
 ```
