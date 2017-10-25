@@ -51,5 +51,10 @@ Test by downloading the sample data file from the new location:
 
 ```
 az storage blob download -c output -n input.txt -f ./data/new_input.txt
-cat ./data/new_input.txt
+```
+
+Confirm the files are the same (should see no diff output):
+
+```
+diff ./data/input.txt ./data/new_input.txt
 ```
