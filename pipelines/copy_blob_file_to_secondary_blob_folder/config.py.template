@@ -1,0 +1,20 @@
+# Azure subscription ID
+SUBSCRIPTION_ID = ''
+
+# Azure AD Tenant
+TENANT_ID = ''
+
+# Id of the registered application
+APP_CLIENT_ID  = ''
+APP_SECRET = ''
+
+# This program creates this resource group. If it's an existing resource group, comment out the code that creates the resource group
+RESOURCE_GROUP = ''
+DEPLOYMENT_REGION = 'westeurope'
+
+# The data factory name. It must be globally unique.
+DATA_FACTORY_NAME = ''
+
+# storage info
+STORAGE_NAME = ''
+STORAGE_KEY = ''
